@@ -1,0 +1,43 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ recipe["title"] }}</title>
+  </head>
+    
+  <body>
+    <h2>{{ recipe["title"] }}</h2>
+
+    <h3>材料</h3>
+    <ul>
+      {% for ing in recipe["ingredients"] %}
+        <li>{{ ing }}</li>
+      {% endfor %}
+    </ul>
+
+    <h3>手順</h3>
+    <ol>
+      {% for step in recipe["steps"] %}
+        <li>{{ step }}</li>
+      {% endfor %}
+    </ol>
+    <h3>アレルギー</h3>
+    <ul>
+      {% for allergy in recipe["allergies"] %}
+        <li>{{ allergy }}</li>
+      {% endfor %}
+    </ul>
+    
+    {% if "source" in recipe %}
+      <h3>引用元</h3>
+      {% for source in recipe["source"] %}
+        <p><a href="{{ source }}">{{ source }}</a></p>
+      {% endfor %}
+    {% endif %}
+
+
+
+
+    <p><a href="/">トップに戻る</a></p>
+  </body>
+  </html>

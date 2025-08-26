@@ -1,0 +1,96 @@
+[{
+  "id": 0,
+  "title": "やきとり炊き込みご飯",
+  "ingredients": [
+    "米 紙コップ１杯", 
+    "水 紙コップ１杯", 
+    "焼き鳥缶詰（たれ味）１缶",
+    "焼き鳥缶詰（塩味） １缶",
+    "乾燥ひじき 4g",
+    "かつおぶし 2g (なくてもよい)"],
+  "allergies": [],
+  "steps": [
+    "米を少量の水で洗って水を切る",
+    "耐熱性のポリ袋に洗った米と同量の水を入れる",
+    "焼き鳥の缶詰を両方タレまで全部入れる",
+    "乾燥ひじき、かつおぶし（なくてもよい）を入れて空気を抜き、縛る",
+    "鍋にお湯を沸かして、4のポリ袋を入れる",
+    "30分加熱したらポリ袋を取り出して、10分蒸らして完成"
+  ],
+  "cook_process": {
+    "no_fire": false,
+    "no_water": false,
+    "no_knife": true,
+    "use_oven":false,
+    "use_hot_water":false,
+    "few_dishes":false,
+    "use_plastic_bag":true,
+    "only_frying_pan":false
+  },
+  "tags": ["主食"],
+  "source":["https://www.maff.go.jp/j/zyukyu/foodstock/index.html"]
+},
+{
+  "id": 1,
+  "title": "さば缶を使った 和風炊き込みご飯",
+  "ingredients": [
+    "米 2合", 
+    "水 200ml", 
+    "サバ缶 １缶",
+    "梅干し １缶",
+    "しめじ 適量",
+    "しょうゆ 大さじ1",
+    "酒 大さじ1",
+    "みりん 大さじ1",
+    "ごま 少々"
+    ],
+  "allergies": ["大豆"],
+  "steps": [
+    "耐熱性のポリ袋に米を入れ2回ほど軽く水でもみ洗いする",
+    "1の袋にさば缶、梅干し(種ごと)、しめじ、しょうゆ、酒、みりん、水200㎖を入れ、袋の空気を抜いて口を縛る",
+    "水が沸騰した鍋に2を入れ、20分加熱、火を止めて、ふたをして10分蒸らす",
+    "蒸らし終わったら、梅干しの種を取り除き、ごまを入れ、軽く混ぜ合わせる"
+  ],
+  "cook_process": {
+    "no_fire": false,
+    "no_water": false,
+    "no_knife": true,
+    "use_oven":false,
+    "use_hot_water":false,
+    "few_dishes":false,
+    "use_plastic_bag":true,
+    "only_frying_pan":false
+  },
+  "tags": ["主食"],
+  "source":["https://www.maff.go.jp/j/zyukyu/foodstock/index.html"]
+},
+{
+ "id":2,
+ "title":"かんたん親子丼",
+ "ingredients":[
+  "焼き鳥缶詰（たれ味）１缶",
+  "玉ねぎ 1/2玉",
+  "卵 1個",
+  "米 150g"
+ ],
+ "allergies":["卵"],
+ "steps":[
+  "玉ねぎを薄切りにする",
+  "玉ねぎが透明になるまで炒め、焼き鳥の缶詰を入れて加熱する",
+  "2の中に溶いた卵を回し入れる",
+  "お皿に盛ったごはんの上に3をかける"
+ ],
+ "cook_process":{
+  "no_fire":false,
+  "few_dishes":false,
+  "no_knife":false,
+  "no_water":true,
+  "use_hot_water":false,
+  "use_plastic_bag":false,
+  "use_oven":false,
+  "only_frying_pan":true
+ },
+  "tags": ["主食"],
+  "source":["https://www.maff.go.jp/j/zyukyu/foodstock/index.html"]
+ }
+]

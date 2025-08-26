@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ソナレピ</title>
+    <style>
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      td {
+        padding: 5px;
+        vertical-align: top;
+      }
+      /* スマホ用：小さい画面ではチェックボックスを縦並びに */
+      @media (max-width: 600px) {
+        table, tr, td {
+          display: block;
+          width: 100%;
+        }
+        td {
+          margin-bottom: 8px;
+        }
+      }
+    </style>
+  </head>
+<body>
+  <h1>そなレピ</h1>
+  <form action="/result" method="post">
+    <label for="材料名">材料名（半角 or 全角スペース区切りで複数入力可）:</label>
+    <input type="text" id="材料名" name="材料名"><br><br>
+    <input type="submit" value="レシピ検索">
+  </form>
+  <p>アレルギー（開発中）</p>
+  <p>調理工程（開発中）</p>
+  <p>カテゴリー（開発中）</p>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLScj7uX7-7MsndDHKoHCW_lCOWEckiG-t5F-Fp4b1fqk9EgOmA/viewform?usp=dialog"> レシピリクエストはこちら </a>
+</body>
+</html>

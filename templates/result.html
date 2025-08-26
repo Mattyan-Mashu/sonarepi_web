@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>検索結果</title>
+</head>
+<body>
+  <h1>検索結果</h1>
+  <p>あなたが選んだ食材：{{ ", ".join(chosen) }}</p>
+
+  {% if recipes %}
+    <ul>
+      {% for r in recipes %}
+        <li>
+          <a href="/recipe/{{ r['id'] }}">{{ r["title"] }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>条件に合うレシピは見つかりませんでした。</p>
+  {% endif %}
+
+  <a href="/">戻る</a>
+</body>
+</html>
